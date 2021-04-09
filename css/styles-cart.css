@@ -1,0 +1,448 @@
+body {
+	background-color: white;
+}
+ 
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+.hidden{
+	position: absolute;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px; width: 1px;
+	margin: -1px; padding: 0; border: 0;
+}
+
+a{
+	text-decoration:none;
+}
+
+header img{
+	height:76px;
+	margin:12px;
+}
+
+header{
+	display:flex;
+	flex-wrap:wrap;
+	background-color:#4f6864;
+	color:#fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:300;
+	line-height:100px;
+}
+
+header h1{
+	font-size:24px;
+}
+
+header nav{
+	margin-left:466px;
+}
+
+header a:hover{
+	border-bottom:2px solid #fff;
+}
+
+nav a{
+	color:#fff;
+}
+
+nav ul{
+	display:flex;
+	flex-wrap:wrap;
+	padding-right:42px;
+}
+
+nav li{
+	font-size:30px;
+	margin-left:40px;
+}
+
+.breadcrumb ul{
+	display:flex;
+	flex-wrap:wrap;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:300;
+	font-size:18px;
+	color:#7eaaa1;
+	line-height:60px;
+}
+
+.breadcrumb li, .breadcrumb p{
+	font-size:18px;
+	margin-right:11px;
+	margin-left:0px;
+}
+
+/*links did not have an underline in the psd, nor were they shown hoverstates*/
+.breadcrumb a{
+	font-size:18px;
+	color:#7eaaa1;
+}
+
+.your-cart{
+	background-image:url(../img/cart/your-cart.jpg);
+	padding:70px 210px 63px 212px;
+	margin-bottom:59px;
+}
+
+.your-cart div{
+	width:538px;
+	height:67px;
+	background-color:#fff;
+}
+
+.your-cart h2{
+	font-family: 'Playfair Display', serif;
+	color:#19211f;
+	font-size:48px;
+	text-align:center;
+	line-height:57.6px
+}
+
+/*Not horizontally centered in page despite following PSD measurements*/
+.item-row{
+	display:flex;
+	flex-wrap:wrap;
+	margin-bottom:62px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#18211e;
+	margin-bottom:14px;
+}
+
+.item-row div{
+	margin:0px 20px 45px 20px;
+}
+
+.qty, .price, .delete, .subtotal, .continue-shopping{
+	text-align:center;
+}
+
+.item-row a{
+	color:#18211e;
+	text-decoration:underline;
+}
+
+.number{
+	font-weight:600;
+	font-size:24px;
+	margin-bottom:16px;
+	line-height:24px;
+	height:24px;
+}
+
+.change{
+	font-weight:300;
+	font-size:16px;
+	line-height:16px;
+	height:16px;
+}
+
+.qty{
+	padding:0px 7px 0px 7px;
+}
+
+.item-info{
+	margin-right:68px;
+}
+
+.title, .price{
+	line-height:24px;
+	height:24px;
+	font-weight:600;
+	font-size:24px;
+}
+
+.title{
+	margin-bottom:19px;
+}
+
+.info{
+	line-height:21.5px;
+	font-weight:300;
+	font-size:18px;
+}
+
+.price{
+	padding: 0px 9px 0px 10px;
+}
+
+.delete{
+	padding:0px 4px;
+}
+
+.x{
+	font-weight:600;
+	font-size:24px;
+	margin-bottom:16px;
+	line-height:24px;
+	height:24px;
+}
+
+.remove{
+	font-weight:300;
+	font-size:16px;
+	line-height:16px;
+	height:16px;
+}
+
+.subtotal, .continue-shopping a{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.subtotal{
+	font-weight:600;
+	font-size:24px;
+	margin-bottom:59px;
+}
+
+.continue-shopping{
+	background-color:#7faaa1;
+	width:334px;
+	height:50px;
+	border-radius:10px;
+	margin:0px 313px 94px 314px;
+}
+
+.continue-shopping a{
+	color:#fff;
+	font-weight:300;
+	font-size:24px;
+	line-height:50px;
+}
+
+.continue-shopping a:hover{
+	text-decoration:underline;
+}
+
+.checkout{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:400;
+}
+
+.box{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.box a:hover{
+	text-decoration:underline;
+}
+
+.checkout > h2{
+	text-align:center;
+	color:#18211e;
+	font-family: 'Playfair Display', serif;
+	font-size:72px;
+	margin-bottom:37px;
+}
+
+.checkout div h3{
+	font-size:36px;
+	margin:40px 0px 38px 50px; /*Top margin should be 60px if following precise photoshop measurements, but placing a 60px top margin pushes everything down in the box further than how they should look. 40px was settled to "vertically center" everything in the log in and register boxes.*/
+}
+
+.log-in{
+	width:480px;
+	height:696px;
+	background-color:#4f6864;
+	color:#fff;
+}
+
+.log-in a{
+	color:#fff;
+}
+
+.register{
+	width:478px;
+	height:694px;
+	background-color:#fff;
+	border:1px solid #4f6864;
+	color:#4f6864;
+}
+
+.register a{
+	color:#4f6864;
+}
+
+.log-in p, .log-in form, .register p{
+	margin-left:50px;
+	margin-right:59px;
+}
+
+/*Had to remove right margin otherwise the input boxes for names and passwords would wrap into the next line*/
+.register form{
+	margin-left:50px;
+}
+
+.log-in p, .register p{
+	font-size:18px;
+	line-height:22px;
+	margin-bottom:33px;
+}
+
+.names, .passwords{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.textbox label{
+	display:block;
+	font-size:18px;
+}
+
+.textbox input{
+	margin-bottom:25px;
+	height:50px;
+	font-size:18px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.log-in .textbox input{
+	width:380px;
+	border:1px solid #18211e;
+	padding-left:10px;
+}
+
+.names input, .passwords input{
+	border:1px solid #4f6864;
+	width:181px;
+}
+
+.first-name input, .user-password input{
+	margin-right:20px;
+}
+
+.email-address input {
+	border:1px solid #4f6864;
+	width:382px;
+}
+
+.login-button{
+	margin-top:140px;
+	width:264.16px;
+}
+
+.register-button{
+	margin-top:40px;
+	width:291px;
+}
+
+.login-button a, .register-button a{
+	color:#fff;
+	line-height:55px;
+	font-weight:300;
+	font-size:30px;
+}
+
+.login-button a{
+	margin-left:11px;
+}
+
+.register-button a{
+	margin-left:13px;
+}
+
+.login-button, .register-button{
+	height:55px;
+	color:#fff;
+	background-color:#7faaa1;
+	border-radius:10px;
+}
+
+.agree-to-terms a{
+	color:#71a3a7;
+	text-decoration:underline;
+}
+
+.checkout aside, .checkout-guest{
+	text-align:center;
+}
+
+.checkout aside{
+	margin-top:49px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:18px;
+	color:#18211e;
+}
+
+.checkout-guest{
+	margin-top:24.5px;
+}
+
+.checkout-guest a{
+	color:#4f6864;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:24px;
+	text-decoration:underline;
+}
+
+footer{
+	width:880px;
+	margin:104px 40px 40px 40px;
+	border-top:1px solid #19211f;
+	color:#19211f;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:24px;
+	line-height:28.8px;
+}
+
+footer img{
+	margin:67px auto 13px auto;
+	display:block;
+}
+
+.footer-title{
+	text-align:center;
+	font-weight:300;	
+}
+
+footer > div{
+	margin-top:61px;
+	margin-bottom:94px;
+}
+
+footer section{
+	display:inline-block;
+	text-align:center;
+	width:280px;
+}
+
+footer ul{
+	margin-top:40px;
+}
+
+footer ul, footer p{
+	font-weight:300;
+}
+
+footer section > div > p{
+	margin-top:40px;
+}
+
+.address{
+	margin-top:17.8px;
+}
+
+footer a{
+	color:#19211f;
+}
+
+footer a:hover{
+	text-decoration:underline;
+}
+
+footer > p{
+	text-align:center;
+	font-size:16px;
+	line-height:19.2px;
+}
+
+.copyright{
+	margin-bottom:23px;
+}

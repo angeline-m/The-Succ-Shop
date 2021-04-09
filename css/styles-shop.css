@@ -1,0 +1,233 @@
+body {
+	background-color: white;
+}
+ 
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+.hidden{
+	position: absolute;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px; width: 1px;
+	margin: -1px; padding: 0; border: 0;
+}
+
+a{
+	text-decoration:none;
+}
+
+header img{
+	height:76px;
+	margin:12px;
+}
+
+header{
+	display:flex;
+	flex-wrap:wrap;
+	background-color:#4f6864;
+	color:#fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:300;
+	line-height:100px;
+}
+
+header h1{
+	font-size:24px;
+}
+
+header nav{
+	margin-left:466px;
+}
+
+header a:hover{
+	border-bottom:2px solid #fff;
+}
+
+nav a{
+	color:#fff;
+}
+
+nav ul{
+	display:flex;
+	flex-wrap:wrap;
+	padding-right:42px;
+}
+
+nav li{
+	font-size:30px;
+	margin-left:40px;
+}
+
+.breadcrumb ul{
+	display:flex;
+	flex-wrap:wrap;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:300;
+	font-size:18px;
+	color:#7eaaa1;
+	line-height:60px;
+}
+
+.breadcrumb li, .breadcrumb p{
+	font-size:18px;
+	margin-right:11px;
+	margin-left:0px;
+}
+
+.breadcrumb a{
+	font-size:18px;
+	color:#7eaaa1;
+}
+
+.echeveria{
+	background-image:url(../img/shop/echeveria.jpg);
+	padding:68px 304px 74px 305px;
+	margin-bottom:40px;
+}
+
+.echeveria div{
+	width:351px;
+	height:58px;
+	background-color:#fff;
+}
+
+.cute-cacti{
+	background-image:url(../img/shop/cacti.jpg);
+	padding:71px 354px 72px 354px;
+	margin-bottom:40px;
+}
+
+.cute-cacti div{
+	width:252px;
+	height:57px;
+	background-color:#fff;
+}
+
+.echeveria h2, .cute-cacti h2{
+	font-family: 'Playfair Display', serif;
+	color:#19211f;
+	font-size:48px;
+	text-align:center;
+}
+
+.echeveria h2{
+	line-height:58px;
+}
+
+.cute-cacti h2{
+	line-height:57px;
+}
+
+main section {
+	font-family: 'Source Sans Pro', sans-serif;
+	color:#000;
+}
+
+main section > p {
+	font-size:18px;
+	margin-bottom:40px;
+	font-weight:300;
+	line-height:21.5px;
+}
+
+.item {
+	display:inline-block;
+	flex-wrap:wrap;
+	text-align:center;
+	font-size:24px;
+	line-height:29px;
+	margin-bottom:45px;
+	margin-right:16px;
+}
+
+.item-last{
+	display:inline-block;
+	flex-wrap:wrap;
+	text-align:center;
+	font-size:24px;
+	line-height:29px;
+	margin-bottom:45px;
+	margin-right:0px;
+}
+
+.item img, .item-last img{
+	margin-bottom:20px;
+}
+
+.item p, .item-last p{
+	font-weight:300;
+}
+
+.item .price, .item-last .price{
+	font-weight:600;
+}
+
+footer{
+	width:880px;
+	margin:30px 40px 40px 40px;
+	border-top:1px solid #19211f;
+	color:#19211f;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:24px;
+	line-height:28.8px;
+}
+
+footer img{
+	margin:67px auto 13px auto;
+	display:block;
+}
+
+.footer-title{
+	text-align:center;
+	font-weight:300;	
+}
+
+footer > div{
+	margin-top:61px;
+	margin-bottom:94px;
+}
+
+footer section{
+	display:inline-block;
+	text-align:center;
+	width:280px;
+}
+
+footer ul{
+	margin-top:40px;
+}
+
+footer ul, footer p{
+	font-weight:300;
+}
+
+footer section > div > p{
+	margin-top:40px;
+}
+
+.address{
+	margin-top:17.8px;
+}
+
+footer a{
+	color:#19211f;
+}
+
+footer a:hover{
+	text-decoration:underline;
+}
+
+footer > p{
+	text-align:center;
+	font-size:16px;
+	line-height:19.2px;
+}
+
+.copyright{
+	margin-bottom:23px;
+}

@@ -1,0 +1,274 @@
+body {
+	background-color: white;
+}
+ 
+.container {
+	margin:0 auto;
+	width:960px;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+.hidden{
+	position: absolute;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px; width: 1px;
+	margin: -1px; padding: 0; border: 0;
+}
+
+a{
+	text-decoration:none;
+}
+
+header img{
+	height:76px;
+	margin:12px;
+}
+
+header{
+	display:flex;
+	flex-wrap:wrap;
+	background-color:#4f6864;
+	color:#fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:300;
+	line-height:100px;
+}
+
+header h1{
+	font-size:24px;
+}
+
+header nav{
+	margin-left:466px;
+}
+
+header a:hover{
+	border-bottom:2px solid #fff;
+}
+
+nav a{
+	color:#fff;
+}
+
+nav ul{
+	display:flex;
+	flex-wrap:wrap;
+	padding-right:42px;
+}
+
+nav li{
+	font-size:30px;
+	margin-left:40px;
+}
+
+.banner{
+	background-image:url(../img/banner.jpg);
+	color:#fff;
+}
+
+.banner h2{
+	font-family: 'Playfair Display', serif;
+	font-size:60px;
+	line-height:60px;
+	padding-top:95px;
+	padding-left:48px;
+	width:510px;
+}
+
+.banner p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:30px;
+	font-weight:300;
+	margin-top:31px;
+	padding-left:50px;
+	line-height:36px;
+	width:458px;
+}
+
+.banner a{
+	display:inline-block;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:300;
+	font-size:36px;
+	color:#fff;
+	background-color:#4f6864;
+	text-align:center;
+	padding:12px 33px 12px 34px;
+	border-radius:10px;
+	margin:41px 0px 163px 51px;
+}
+
+.banner a:hover{
+	text-decoration:underline;
+}
+
+.about-us{
+	display:flex;
+	flex-wrap:wrap;
+	margin-top:105px;
+	margin-bottom:100px;
+}
+
+.about-us img{
+	width:400px;
+}
+
+.about-us div{
+	width:520px;
+	margin-left:40px;
+	color:#19211f;
+}
+
+.about-us div h2{
+	text-align:center;
+	font-size:72px;
+	font-family: 'Playfair Display', serif;
+}
+
+.about-us div p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:18px;
+	line-height:21.5px;
+	margin-bottom:26px;
+}
+
+.about-us div aside p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:14px;
+}
+
+.starting{
+	background-image:url(../img/starting-with-succulents.jpg);
+	padding:70px 210px 63px 212px;
+	margin-bottom:40px;
+}
+
+.starting div{
+	width:538px;
+	height:67px;
+	background-color:#fff;
+}
+
+.starting h2{
+	font-family: 'Playfair Display', serif;
+	color:#19211f;
+	font-size:48px;
+	text-align:center;
+	line-height:57.6px
+}
+
+main section article{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+main section article div{
+	width:480px;
+	height:500px;
+	background-color:#0e1c1c;
+}
+
+.article-text h3, .article-text p, .article-text a{
+	padding-left:40px;
+	color:white;
+}
+
+.article-text h3{
+	font-family: 'Playfair Display', serif;
+	font-size:36px;
+	padding-top:25px;
+	margin-bottom:30px;
+}
+
+.article-text p{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:16px;
+	padding-right:40px;
+	margin-top:23px;
+	line-height:19.2px;
+}
+
+.article-text a{
+	color:#fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:24px;
+}
+
+.article-text a:hover{
+	text-decoration:underline;
+}
+
+.article1-bottom{
+	margin-bottom:81px;
+}
+
+.article2-bottom{
+	margin-bottom:97px;
+}
+
+footer{
+	width:880px;
+	margin:98px 40px 40px 40px;
+	border-top:1px solid #19211f;
+	color:#19211f;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:24px;
+	line-height:28.8px;
+}
+
+footer img{
+	margin:67px auto 13px auto;
+	display:block;
+}
+
+.footer-title{
+	text-align:center;
+	font-weight:300;	
+}
+
+footer > div{
+	margin-top:61px;
+	margin-bottom:94px;
+}
+
+footer section{
+	display:inline-block;
+	text-align:center;
+	width:280px;
+}
+
+footer ul{
+	margin-top:40px;
+}
+
+footer ul, footer p{
+	font-weight:300;
+}
+
+footer section > div > p{
+	margin-top:40px;
+}
+
+.address{
+	margin-top:17.8px;
+}
+
+footer a{
+	color:#19211f;
+}
+
+footer a:hover{
+	text-decoration:underline;
+}
+
+footer > p{
+	text-align:center;
+	font-size:16px;
+	line-height:19.2px;
+}
+
+.copyright{
+	margin-bottom:23px;
+}
